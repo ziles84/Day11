@@ -12,7 +12,7 @@ function myMonitorsFunction(arr) {
 
 
   for (var i = 0; i < arr.length; i++) {
-    monitorsList.push([monitorsListArray[i]] + "," + i+);
+    monitorsList.push([arr[i], i+1]);
   }
 
   return monitorsList;
